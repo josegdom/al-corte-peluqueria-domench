@@ -70,7 +70,8 @@ justify-content: center;
   margin: 0 auto;
   border: 2px solid;
   border-color: #ff8000;
-  width: fit-content;
+  width: min-content;
+  height: fit-content;
   
   
 }
@@ -358,7 +359,7 @@ list-style: none;
         justify-content: space-between; */
         
           display: flex;
-          flex-wrap: nowrap;
+          flex-wrap: wrap;
           justify-content:center;
           align-items: center;
           align-content:stretch;
@@ -418,6 +419,10 @@ list-style: none;
 
 }
 
+h3 {
+  display: block;
+  justify-content: end;
+}
 .th td {
   text-align:center;
   
