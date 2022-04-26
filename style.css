@@ -20,9 +20,24 @@
     
     
 
+/* .alCortelogo {
+
+  filter: blur(7px);
+   */
+ 
+
+}
+
+/* .alCortelogo:hover {
+  transition: all 1s;
+  filter: none;
+  -webkit-transform:scale(1.1);transform:scale(1.1); */
+}
+
+
 .headerNav {
   flex-direction: column;
-  background-color: rgba(0, 0, 0, 0.983);
+  background-image: linear-gradient(black,grey,gold);
   background-size: 100%;
   width: 100%;
   height: 100%;
@@ -31,6 +46,8 @@
   
  
 }
+
+
 
 label  {
   color: white;
@@ -174,6 +191,8 @@ font-family: 'Russo One', sans-serif;
 list-style: none;
 }
 
+
+
 /* Tamaño Imagenes */
 
 .pequeña{
@@ -292,6 +311,7 @@ list-style: none;
     
     align-content: space-between;
     margin:0 auto;
+    overflow:hidden;
     
   }
   
@@ -306,11 +326,18 @@ list-style: none;
   
   }
 
+
+  
+
+
   .imgConborde:hover {
-    border: 5px solid;
-    border-color: rgb(38, 38, 38);
+   
+    -webkit-transform:scale(1.3);transform:scale(1.3);
+    
     
   }
+
+
 
   label {
     display: grid;
@@ -326,6 +353,7 @@ list-style: none;
    border-color: #ff8000;
  }
 
+
   @media only screen and (max-width: 768px) {
       
     
@@ -338,7 +366,7 @@ list-style: none;
     .headerNav {
       display: flex;
       flex-direction: column;
-      background-color:  black;
+      background-image: linear-gradient(black,grey,gold);
       background-size:auto;
       
       width: min-content;
@@ -421,7 +449,7 @@ list-style: none;
     text-align: center;
   }
 
-}
+
 
 h3 {
   display: block;
@@ -430,6 +458,13 @@ h3 {
 .th td {
   text-align:center;
   
+}
+
+.alCortelogo {
+    
+  filter: sepia();
+}
+
 }
 
 
