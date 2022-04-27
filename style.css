@@ -20,19 +20,17 @@
     
     
 
-/* .alCortelogo {
+.alCortelogo {
 
-  filter: blur(7px);
-   */
- 
-
+  
+  
 }
 
-/* .alCortelogo:hover {
-  transition: all 1s;
-  filter: none;
-  -webkit-transform:scale(1.1);transform:scale(1.1); */
-}
+
+
+.alCortelogo:hover {-webkit-transform:scale(1.1);transform:scale(1.1);}
+
+
 
 
 .headerNav {
@@ -189,7 +187,10 @@ font-size:xx-large;
 font-weight: 400;
 font-family: 'Russo One', sans-serif;
 list-style: none;
+
 }
+
+
 
 
 
@@ -239,6 +240,7 @@ list-style: none;
     
     text-align:center;
     
+    
       
     }
     
@@ -247,6 +249,7 @@ list-style: none;
      text-align: center
    }
   
+   
 
    
 
@@ -311,7 +314,7 @@ list-style: none;
     
     align-content: space-between;
     margin:0 auto;
-    overflow:hidden;
+    
     
   }
   
@@ -323,6 +326,7 @@ list-style: none;
       align-items: flex-end;
       align-content: space-between;
         width: fit-content;
+        overflow:hidden;
   
   }
 
@@ -357,10 +361,7 @@ list-style: none;
   @media only screen and (max-width: 768px) {
       
     
-  /*   body {
-      margin:0;
-      padding:0;
-    } */
+ 
 
 
     .headerNav {
@@ -387,8 +388,7 @@ list-style: none;
    }
 
       .flexbox-footer {
-       /*  display: grid;
-        justify-content: space-between; */
+      
         
           display: flex;
           flex-wrap: wrap;
