@@ -1,0 +1,71 @@
+
+/* header */
+    .header {
+    background-color: black;
+}
+
+/* logo navbar */
+
+    .logo {
+    width: 150px;
+    
+}
+
+    /* recordatorio turnos */
+
+    .turnos {
+        display: flex;
+        justify-items:center;
+        align-items:center;
+        flex-direction: column;
+        list-style: none;
+        color: white;
+    }
+
+    /* videos index */
+
+    .videosIndex {
+        display: block;
+       
+        justify-content: space-around;
+        align-items:center;
+    }
+
+   
+
+    /* Tabla de precios */
+
+    th {
+        text-decoration: white;
+    }
+
+    /* carousel */
+    .carousel {
+       
+        width: 90vw;
+    }
+
+    body {
+     background-image: url(./background/backgroundPoligonos.jpg);
+     background-repeat: no-repeat;
+     background-position: center;
+    }
+
+    /* footer */
+
+    .footer {
+        display: flex;
+         flex-direction: row;
+         flex-wrap: wrap;
+         justify-content: space-around;
+         align-content: flex-end;
+         list-style: none;
+         color: white;
+         background-color: black;
+         
+        
+    }
+
+   
+
+    
