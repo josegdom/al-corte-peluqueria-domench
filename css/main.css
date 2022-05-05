@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.header {
+  background-color: black; }
+
+.logo {
+  width: 200px; }
+  .logoGrande {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: auto;
+    overflow: visible; }
+    .logoGrande:hover {
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1); }
+
+.turnos {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+  list-style: none;
+  color: white; }
+
+.videosIndex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-content: stretch;
+  margin: auto; }
+
+.videosTam {
+  width: 600px;
+  height: auto;
+  overflow: hidden; }
+
+th {
+  text-decoration: white; }
+
+.carousel {
+  width: 500px;
+  height: auto;
+  display: block;
+  margin: auto; }
+
+body {
+  background-image: url(./background/backgroundPoligonos.jpg);
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: flex-end;
+  list-style: none;
+  color: white;
+  background-color: black; }
+
+a {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin: 10px; }
+
+/* media */
+@media only screen and (max-width: 768px) {
+  .carousel {
+    width: auto; }
+  .videosIndex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+    margin: auto; }
+  .logoGrande {
+    display: none; } }
+
+/* footer */
+.iconosFooter {
+  text-decoration: none;
+  color: white; }
