@@ -1,0 +1,5 @@
+"Agregue keywords"
+"Agregue description"
+"Optimice imagenes de index, galeria, favicon y navbar"
+"Agregue gradiente"
+"Corregi ubicacion de archivos .scss"
