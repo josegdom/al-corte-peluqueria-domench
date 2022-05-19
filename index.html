@@ -23,7 +23,7 @@
     <script src="https://kit.fontawesome.com/6170736ebd.js" crossorigin="anonymous"></script>
 
 </head>
-<body>
+<body class="body">
 
     <header>
         <!-- navbar -->
@@ -31,7 +31,7 @@
         <nav class="navbar navbar-expand-lg navbar-light gradienteNavbar">
             <div class="container-fluid">
               <a class="navbar-brand" href="https://www.facebook.com/plugins/video.php?height=315&href=https%3A%2F%2Fwww.facebook.com%2Falcortepeluqueria%2Fvideos%2F471263330483967%2F&show_text=false&width=560&t=0"target=blank>
-                  <img src="./imagenes/AL CORTE.svg" alt="Logo Imagen" class="logo"></a>
+                  <img src="./imagenes/AL CORTE.png" alt="Logo Imagen " class="logo"></a>
               <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon border "></span>
               </button>
@@ -59,9 +59,9 @@
 
     </header>
 
-    <div class=" d-flex justify-content-center fw-bold fs-5 logoGrande"><img src="./imagenes/AL CORTE.svg" alt="logo"></div>
+   <!--  <div class=" d-flex justify-content-center fw-bold fs-5 logoGrande"><img src="./imagenes/AL CORTE.svg" alt="logo"></div> -->
     
-    <div class="videosIndex ">
+   <!--  <div class="videosIndex ">
         
         <iframe class="videosTam" src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Falcortepeluqueria%2Fvideos%2F405913819979824%2F&show_text=false&width=380&t=0" ></iframe>
 
@@ -69,9 +69,32 @@
     
         <iframe class="videosTam" src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Falcortepeluqueria%2Fvideos%2F1123450724712483%2F&show_text=false&width=380&t=0"></iframe>
     
-    </div>
+    </div> -->
 
-   
+   <!-- carousel videos index -->
+
+   <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner ">
+      <div class="carousel-item  active">
+        <iframe class="d-block w-100 videosTam" src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Falcortepeluqueria%2Fvideos%2F405913819979824%2F&show_text=false&width=380&t=0" ></iframe>
+      </div>
+      <div class="carousel-item">
+        <iframe class="d-block w-100 videosTam"  src="https://www.facebook.com/plugins/video.php?height=315&href=https%3A%2F%2Fwww.facebook.com%2Falcortepeluqueria%2Fvideos%2F471263330483967%2F&show_text=false&width=560&t=0" ></iframe>
+      </div>
+      <div class="carousel-item">
+        <iframe class="d-block w-100 videosTam" src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Falcortepeluqueria%2Fvideos%2F1123450724712483%2F&show_text=false&width=380&t=0"></iframe>
+        <!-- <img src="..." class="d-block w-100" alt="..."> -->
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
 
 
     <!-- Footer -->

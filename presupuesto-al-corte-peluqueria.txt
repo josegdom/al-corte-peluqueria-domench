@@ -1,0 +1,69 @@
+Presupuesto para “ Al corte peluquería”.    25 de mayo 2022
+
+
+Objetivo: 
+El cliente indica que quiere una página web para obtener un mayor alcance al público, y mostrar sus trabajos de manera ordenada y prolija. Imagina una galería de fotos con sus trabajos; una tabla de precios con los servicios que brinda. Y quiere que se le facilite al usuario las redes sociales de su emprendimiento, y la ubicación del local, para agilizarle a la persona todas esas cuestiones que generalmente el usuario desconoce.
+
+Detalles del proyecto:
+Diseño del sitio web con secciones.
+“inicio”, “galería”, “contacto”, “servicios”, “turnos”
+Incluye:
+Diseño del sitio web
+Diseño y creación de las páginas web
+ Subida al hosting
+
+
+No incluye: 
+Textos o datos a utilizarse. 
+Imágenes a utilizar
+Diseño del logo
+Sistemas de cobro adentro de la página
+Pago y contratación de hosting y dominio. Se le facilitara al cliente una lista con hostings y lugares donde comprar un dominio como sugerencia para que el cliente pueda elegir lo que crea conveniente
+Valor total
+
+Transferencia bancaria: $$$$
+Efectivo %-10dcto
+Medios de pago:
+
+Mercado pago
+Transferencia bancaria
+Pago en efectivo
+
+
+
+Etapa 1: Diseño del sitio web
+En esta etapa se llevara a cabo el diseño del sitio. Se realizara un prototipo para que el cliente visualizar como se verá su página antes de comenzar el desarrollo de la misma. Se definirán estilos, paletas de colores, tipografías y funcionamiento de todas las secciones del sitio web.
+
+Incluye: 
+Reunión con el cliente para establecer cuáles son sus necesidades e inquietudes.
+Realización del boceto de la página
+Importante:
+Una vez realizado el boceto se coordinara una reunión con el cliente donde podrá realizar cambios. Una vez realizado el prototipo  se coordinara otra reunión para ultimar detalles y el cliente podrá realizar algún cambio.
+Finalizadas estas dos reuniones se pactara el plazo de entrega y se procederá al desarrollo del mismo.
+La fecha de finalización del proyecto podrá definirse una vez recibido el material necesario para el desarrollo del mismo  (imágenes, logo, etc)
+Etapa 2: Desarrollo del sitio web
+En esta etapa se llevara a cabo el desarrollo del sitio. Al finalizar esta etapa se entregará el sitio web subido en un servidor funcionando.
+Incluye
+Desarrollo de páginas siguiendo prototipo previamente aprobado por el cliente
+Se tendrá en cuenta el seo de la pagina
+Listado de hostings recomendados y listado de paginas para contratar el dominio
+Subida al hosting elegido por el cliente
+No incluye:
+Pago de dominio
+Pago de hosting
+
+Importante:
+Se realizaran cada cierta cantidad de tiempo reuniones para ir mostrando avances. Se aceptaran pequeños cambios siempre y cuando no represente grandes modificaciones en la estructura planteada en la primera reunión. En caso de que impliquen grandes cambios se cobraran aparte.
+Valor el proyecto:
+Teniendo en cuenta lo antes detallado. El precio total del proyecto será del 1000USD (mil dólares) el mismo se cobrara en pesos argentinos al cambio oficial del día que se realiza la primera reunión.
+
+Se abona un %50 al comenzar y el otro 50% al entregar el proyecto final.
+Para el mantenimiento de la pagina se cobrara según lo solicitado:
+Para cambios de imágenes o subida de nuevas; cambio de tipografías, logo, colores: 30 usd
+*se abonara en pesos argentinos al valor oficial del día que se realiza el pedido. El precio esta sujeto a modificaciones en caso de que estos cambios impliquen un gran cambio al funcionamiento de la pagina. 
+Durante  el primer mees de la pagina en funcionamiento, si algo no funciona correctamente se  harán los arreglos pertinentes.
+*importante
+El pago y contratación del dominio y servidor al que se subirá el proyecto no esta incluido en el presupuesto.
+El resultado final del sitio web no se subirá al hosting hasta no haber saldado el 50% restante del presupuesto. 
+
+
