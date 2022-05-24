@@ -5,9 +5,9 @@
 
 
         $colores: (
-          "blanco" white ,
-          "negro" black , 
-          "gris" gray , 
+          "blanco": white ,
+          "negro": black , 
+          "gris": gray , 
 
         );
 
@@ -21,107 +21,7 @@
         color: white;
        }
 
-       .turnos {
-           @extend %flex-center ;
-       }
-
-
-.header {
-    background-color : map-get($colores, negro )
-}
-
-.logo {
-    width: 200px;
-    
-        &Grande {
-
-            width: 200px;
-            height: auto;
-            display: block;
-            margin: auto;
-            overflow:visible;
-
-            &:hover {
-                -webkit-transform:scale(1.1);transform:scale(1.1);
-
-
-            }
-        }
-
-
-}
-
-.turnos {
-    display: flex;
-        justify-items:center;
-        align-items:center;
-        flex-direction: column;
-        list-style: none;
-        color: map-get($colores, blanco);
-}
-
-.videosIndex {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-   
-    justify-content: space-around;
-   align-content: stretch;
-   
-   margin: auto
-}
-
-
-
-.videosTam {
-    width: 600px;
-    height: auto;
-    overflow:hidden;
-}
-
-th {
-    text-decoration: map-get($colores, blanco ),
-}
-
-.carousel {
-       
-    width: 500px;
-    height: auto;
-    display: block;
-    margin: auto;
-
-   
-}
-
-body {
-    background-image: url(./background/backgroundPoligonos.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-   }
-
-   .footer {
-    display: flex;
-     flex-direction: row;
-     flex-wrap: wrap;
-     justify-content: space-around;
-     align-content: flex-end;
-     list-style: none;
-     color: map-get($colores,  blanco ),
-     background-color map-get($colores, negro );
-
-        
-}
-
-
-a {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    margin: 10px;
-}
-
-
-
+  
 
 
  /* media */

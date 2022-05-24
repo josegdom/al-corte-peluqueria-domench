@@ -8,7 +8,7 @@
     align-content: flex-end;
      list-style: none;
      color: white;
-     background-color: map-get($colores:  negro );
+     background-color: map-get($colores,  negro );
      width: 100%; display: flex; flex-wrap: wrap; align-self: flex-end;}
 
      .iconosFooter {
