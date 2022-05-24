@@ -66,4 +66,7 @@ Durante  el primer mees de la pagina en funcionamiento, si algo no funciona corr
 El pago y contratación del dominio y servidor al que se subirá el proyecto no esta incluido en el presupuesto.
 El resultado final del sitio web no se subirá al hosting hasta no haber saldado el 50% restante del presupuesto. 
 
+Plazo de entrega:
+El plazo de entrega del sitio sera aprox 25  dias despues de finalizadas las reuniones enunciadas en la etapa 1. Ante algun inconveniente el cliente sera comunicado, y en caso de excederse el plazo de entrega a mas de 7 dias se realizara un 10% de descuento en el pago del %50 restante.
+
 
