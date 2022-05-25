@@ -45,10 +45,12 @@ flex-wrap: nowrap;
 justify-content: space-around;
 align-content: stretch;
 
-margin: auto
+margin: auto;
 }
 
-
+.noPuntos {
+    text-decoration: none;
+}
 
 .videosTam {
 width: 600px;

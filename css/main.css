@@ -60,6 +60,9 @@
   align-content: stretch;
   margin: auto; }
 
+.noPuntos {
+  text-decoration: none; }
+
 .videosTam {
   width: 600px;
   height: auto;
