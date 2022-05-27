@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   margin: 0;
   padding: 0; }
@@ -28,7 +27,7 @@
 
 .iconosFooter {
   text-decoration: none;
-  background-color: gray; }
+  color: gray; }
 
 .header {
   background-color: black; }
@@ -83,7 +82,7 @@ th {
   margin: auto; }
 
 body {
-  background-image: url(”../background/backgroundPoligonos.jpg”);
+  background-image: url("../background/backgroundPoligonos.jpg");
   background-repeat: no-repeat;
   background-position: center; }
 
