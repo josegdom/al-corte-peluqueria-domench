@@ -37,6 +37,11 @@ display: flex;
  color: map-get($colores, blanco);
 }
 
+.gradienteNavbar {
+    background: rgb(149,149,149);
+    background: linear-gradient(180deg, rgba(149,149,149,1) 0%, rgba(55,55,55,1) 35%, rgba(0,0,0,1) 100%)!important;
+ } 
+
 .videosIndex {
 display: flex;
 flex-direction: row;
@@ -73,7 +78,7 @@ margin: auto;
 }
 
 body {
-background-image: url(./background/backgroundPoligonos.jpg);
+background-image: url(”../background/backgroundPoligonos.jpg”);
 background-repeat: no-repeat;
 background-position: center;
 }

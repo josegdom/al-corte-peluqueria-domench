@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0; }
@@ -52,6 +53,10 @@
   list-style: none;
   color: white; }
 
+.gradienteNavbar {
+  background: #959595;
+  background: linear-gradient(180deg, #959595 0%, #373737 35%, black 100%) !important; }
+
 .videosIndex {
   display: flex;
   flex-direction: row;
@@ -78,7 +83,7 @@ th {
   margin: auto; }
 
 body {
-  background-image: url(./background/backgroundPoligonos.jpg);
+  background-image: url(”../background/backgroundPoligonos.jpg”);
   background-repeat: no-repeat;
   background-position: center; }
 
