@@ -29,11 +29,17 @@
   text-decoration: none;
   color: gray; }
 
+.iconosFooter:hover {
+  color: white;
+  text-shadow: 2px 2px 15px #9E0303; }
+
 .header {
   background-color: black; }
 
 .logo {
   width: 200px; }
+  .logo:hover {
+    filter: drop-shadow(-1px 1px 34px #790C0C); }
   .logoGrande {
     width: 200px;
     height: auto;
@@ -50,11 +56,19 @@
   align-items: center;
   flex-direction: column;
   list-style: none;
+  padding: 10%;
   color: white; }
 
 .gradienteNavbar {
   background: #959595;
-  background: linear-gradient(180deg, #959595 0%, #373737 35%, black 100%) !important; }
+  background: linear-gradient(180deg, #646464 0%, #2c2c2c 35%, black 100%) !important; }
+
+.logoNav:hover {
+  -webkit-box-shadow: 10px 10px 15px 10px #730D09;
+  box-shadow: 10px 10px 15px 10px #730D09; }
+
+.nav-item:hover {
+  text-shadow: 2px 2px 15px #9E0303; }
 
 .videosIndex {
   display: flex;
@@ -68,23 +82,36 @@
   text-decoration: none; }
 
 .videosTam {
-  width: 600px;
-  height: auto;
-  overflow: hidden; }
+  width: 100%;
+  height: 70vh;
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+  margin: auto; }
+
+.videoDos {
+  padding-top: 20vh; }
 
 th {
   text-decoration: white; }
 
 .carousel {
   width: 500px;
-  height: auto;
+  min-height: 40vh;
+  margin: auto;
   display: block;
   margin: auto; }
+
+.sombraTexto {
+  text-shadow: 1px 1px 8px #0A0A0A; }
 
 body {
   background-image: url("../background/backgroundPoligonos.jpg");
   background-repeat: no-repeat;
-  background-position: center; }
+  background-position: center;
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto; }
 
 .footer {
   display: flex;
@@ -112,5 +139,36 @@ a {
     align-items: center;
     align-content: stretch;
     margin: auto; }
+  .videosTam {
+    width: 90vw;
+    height: 45vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin: auto; }
   .logoGrande {
-    display: none; } }
+    display: none; }
+  body {
+    background-image: url("../background/backgroundPoligonos.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto; }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    list-style: none;
+    color: white;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: flex-end; }
+  .iconosFooter {
+    text-decoration: none;
+    color: gray; } }

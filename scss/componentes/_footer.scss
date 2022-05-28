@@ -17,4 +17,9 @@
         text-decoration: none;
        color: map-get($colores,gris);
         
+    };
+
+    .iconosFooter:hover {
+       color: white;
+       text-shadow: 2px 2px 15px #9E0303;
     }
