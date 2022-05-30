@@ -11,7 +11,8 @@
      list-style: none;
      color: white;
      background-color: map-get($colores,  negro );
-     width: 100%; display: flex; flex-wrap: wrap; align-self: flex-end;}
+     width: 100%; 
+     align-self: flex-end;}
 
      .iconosFooter {
         text-decoration: none;
@@ -21,5 +22,5 @@
 
     .iconosFooter:hover {
        color: white;
-       text-shadow: 2px 2px 15px #9E0303;
+       text-shadow: 2px 2px 15px white;
     }

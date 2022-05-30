@@ -11,7 +11,7 @@ background-color : map-get($colores, negro )
 width: 200px;
 
 &:hover {
-    filter: drop-shadow(-1px 1px 34px #790C0C);
+    filter: drop-shadow(-1px 1px 34px #ffffff);
 }
 
  &Grande {
@@ -32,6 +32,28 @@ width: 200px;
 
 }
 
+.videosIndex {
+    display:grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    
+    align-content: space-around;
+    flex-direction: row;
+  min-height: 60vh;
+   width: 100%;
+}
+
+.videosTam {
+    height: 500px;
+    display: flex;
+    align-items: baseline;
+
+
+
+
+
+}
+
+
 
 
 .turnos {
@@ -50,8 +72,8 @@ display: flex;
  } 
 
  .logoNav:hover {
-    -webkit-box-shadow: 10px 10px 15px 10px #730D09;
-    box-shadow: 10px 10px 15px 10px #730D09;
+    -webkit-box-shadow: 10px 10px 15px 10px white;
+    box-shadow: 10px 10px 15px 10px white;
  }
 
  .nav-item {
@@ -60,41 +82,24 @@ display: flex;
  
  &:hover {
     
-    text-shadow: 2px 2px 15px #9E0303;
+    text-shadow: 2px 2px 15px white;
     
 
  }};
 
-.videosIndex {
-display: flex;
-flex-direction: row;
-flex-wrap: nowrap;
 
-justify-content: space-around;
-align-content: stretch;
-
-margin: auto;
-}
 
 .noPuntos {
     text-decoration: none;
 }
 
-.videosTam {
-width: 100%;
-height: 70vh;
-overflow:auto;
-display: flex;
-justify-content: center;
-margin: auto;
-}
 
-.videoDos {
-    padding-top: 20vh;
-}
+
 
 th {
-text-decoration: map-get($colores, blanco ),
+text-decoration: map-get($colores, blanco );
+min-height: 100vh;
+
 }
 
 .carousel {
@@ -107,6 +112,8 @@ margin: auto;
 
 
 }
+
+
 
 .sombraTexto {
     text-shadow: 1px 1px 8px #0A0A0A;
@@ -121,20 +128,6 @@ min-height: 100vh;
 grid-template-rows: auto 1fr auto;
 }
 
-
-
-.footer {
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-justify-content: space-around;
-align-content: flex-end;
-list-style: none;
-color: map-get($colores,  blanco ),
-background-color map-get($colores, negro );
-
- 
-}
 
 
 a {
