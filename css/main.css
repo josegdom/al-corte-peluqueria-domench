@@ -134,23 +134,19 @@ a {
     grid-template-rows: auto 1fr auto; }
   .footer {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    flex-direction: column;
     align-items: center;
-    align-content: center;
+    justify-content: center;
+    flex-wrap: nowrap;
     list-style: none;
     color: white;
     background-color: black;
-    width: 90vh;
-    display: flex;
-    flex-wrap: wrap;
-    align-self: flex-end;
-    height: 30vh; }
+    width: 100%;
+    /* min-height: 30vh; */ }
   .iconosFooter {
     text-decoration: none;
     color: gray;
-    width: 100%; }
+    /* width: 100% */ }
   .table-responsive {
     text-decoration: white;
     min-height: 100vh; }
@@ -160,7 +156,7 @@ a {
     align-items: center;
     flex-direction: column;
     list-style: none;
-    padding: 30%;
+    padding: 10%;
     color: white;
     min-height: 100vh; }
   .navbarNav {

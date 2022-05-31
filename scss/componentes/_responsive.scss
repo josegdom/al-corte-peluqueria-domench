@@ -39,23 +39,25 @@
    .footer {
 
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    align-content: center;
+    flex-direction:column;
+     align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+ 
+
+    
      list-style: none;
      color: map-get($colores, blanco);
      background-color: map-get($colores,  negro );
-     width: 90vh; display: flex; flex-wrap: wrap; align-self: flex-end;
-    height: 30vh;
+     width: 100%;  
+    /* min-height: 30vh; */
 
        }
 
      .iconosFooter {
         text-decoration: none;
         color: map-get($colores,gris);
-        width: 100%
+        /* width: 100% */
         
         
     }
@@ -71,7 +73,7 @@
              align-items:center;
              flex-direction: column;
              list-style: none;
-             padding: 30%;
+             padding: 10%;
              color: map-get($colores, blanco);
              min-height: 100vh;
             }
@@ -88,6 +90,8 @@
        
        
 }
+
+
        
         
         }
