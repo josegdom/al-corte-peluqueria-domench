@@ -31,6 +31,11 @@
   color: white;
   text-shadow: 2px 2px 15px white; }
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
 .header {
   background-color: black; }
 
@@ -48,6 +53,9 @@
       -webkit-transform: scale(1.1);
       transform: scale(1.1); }
 
+.formularioTabla {
+  padding: 20px; }
+
 .videosIndex {
   display: grid;
   grid-template-columns: 1fr 1fr 2fr;
@@ -57,9 +65,10 @@
   width: 100%; }
 
 .videosTam {
-  height: 500px;
+  height: 550px;
   display: flex;
-  align-items: baseline; }
+  align-items: baseline;
+  padding: 10px; }
 
 .turnos {
   display: flex;
@@ -67,7 +76,7 @@
   align-items: center;
   flex-direction: column;
   list-style: none;
-  padding: 10%;
+  padding: 5%;
   color: white; }
 
 .gradienteNavbar {
@@ -163,4 +172,4 @@ a {
     min-height: 100vh; }
   .videosTam {
     width: 500px;
-    min-height: max-content; } }
+    padding: 10px; } }

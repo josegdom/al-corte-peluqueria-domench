@@ -1,3 +1,5 @@
+* {padding:0; margin:0; box-sizing:border-box;}
+
 .turnos {
     @extend %flex-center ;
 }
@@ -32,6 +34,10 @@ width: 200px;
 
 }
 
+
+.formularioTabla {
+    padding: 20px;
+}
 .videosIndex {
     display:grid;
     grid-template-columns: 1fr 1fr 2fr;
@@ -40,16 +46,14 @@ width: 200px;
     flex-direction: row;
   min-height: 60vh;
    width: 100%;
+   
 }
 
 .videosTam {
-    height: 500px;
+    height: 550px;
     display: flex;
     align-items: baseline;
-
-
-
-
+    padding: 10px;
 
 }
 
@@ -62,7 +66,7 @@ display: flex;
  align-items:center;
  flex-direction: column;
  list-style: none;
- padding: 10%;
+ padding: 5%;
  color: map-get($colores, blanco);
 }
 
