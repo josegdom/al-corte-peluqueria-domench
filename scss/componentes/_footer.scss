@@ -2,17 +2,20 @@
 
 .footer {
 
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: flex-end;
-    align-content: flex-end;
-     list-style: none;
-     color: white;
-     background-color: map-get($colores,  negro );
-     width: 100%; 
-     align-self: flex-end;}
+         display: flex;
+         flex-direction: row;
+         flex-wrap: wrap;
+         justify-content: space-around;
+         align-items: flex-end;
+         align-content: flex-end;
+        list-style: none;
+        
+        background-color: map-get($colores,  negro );
+        width: 100%; 
+       align-self: flex-end;
+       border-top:white;
+       }
+         
 
      .iconosFooter {
         text-decoration: none;
