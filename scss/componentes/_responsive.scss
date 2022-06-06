@@ -6,7 +6,7 @@
 
    .videosIndex {
     display: flex;
-    justify-items: center;
+    justify-content: center;
     flex-direction: column;
        
        height: auto;
@@ -19,7 +19,14 @@
    }
 
 
-  
+     .videosTam {
+       width: 500px;
+       height: 450px;
+       padding: 10px;
+       
+       
+}
+
 
    .logoGrande {
        display:none;
@@ -84,13 +91,7 @@
             }
 
 
-    .videosTam {
-       width: 500px;
-       padding: 10px;
-       
-       
-}
-
+ 
 h1 {
     color: white;
     background-color: map-get($colores, negro );

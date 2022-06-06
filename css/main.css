@@ -135,11 +135,15 @@ h1 {
     min-height: 100vh; }
   .videosIndex {
     display: flex;
-    justify-items: center;
+    justify-content: center;
     flex-direction: column;
     height: auto;
     width: 100%;
     min-height: 100vh; }
+  .videosTam {
+    width: 500px;
+    height: 450px;
+    padding: 10px; }
   .logoGrande {
     display: none; }
   body {
@@ -178,9 +182,6 @@ h1 {
     min-height: 100vh; }
   .navbarNav {
     min-height: 100vh; }
-  .videosTam {
-    width: 500px;
-    padding: 10px; }
   h1 {
     color: white;
     background-color: black;
