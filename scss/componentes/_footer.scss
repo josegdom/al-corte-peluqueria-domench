@@ -13,7 +13,8 @@
         background-color: map-get($colores,  negro );
         width: 100%; 
        align-self: flex-end;
-       border-top:white;
+       background: linear-gradient(180deg, rgb(61, 61, 61) 0%, rgb(32, 32, 32) 35%, rgb(0, 0, 0) 100%)!important;
+       
        }
          
 

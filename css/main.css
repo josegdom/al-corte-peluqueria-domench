@@ -21,7 +21,7 @@
   background-color: black;
   width: 100%;
   align-self: flex-end;
-  border-top: white; }
+  background: linear-gradient(180deg, #3d3d3d 0%, #202020 35%, black 100%) !important; }
 
 .iconosFooter {
   text-decoration: none;
@@ -126,7 +126,8 @@ h1 {
   display: flex;
   justify-content: center;
   flex-direction: row;
-  font-family: 'Russo One', sans-serif; }
+  font-family: 'Russo One', sans-serif;
+  text-shadow: 2px 2px 15px white; }
 
 @media only screen and (max-width: 768px) {
   .carousel {
